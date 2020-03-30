@@ -1,0 +1,17 @@
+.navbar1 {
+    margin-top: 12% !important;
+    background: #282828;
+    color: white;
+    padding-top: 5% !important;
+}
+
+.footerimg {
+    width: 100%;
+    margin-bottom: 2% !important;
+}
+
+.redes {
+    display: flex;
+    width: 15%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,71 @@
+body {
+    background: #282828 !important;
+}
+
+.boxpeli {
+    background: #fff;
+    color: black;
+    width: 60%;
+    height: 84vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.flex {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.input {
+    width: 90%;
+    height: 35px;
+    background: #dfdedee6;
+    color: black;
+    border-radius: 20px;
+    padding-left: 7px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 4.5%;
+}
+
+.textarea {
+    overflow: auto;
+    resize: none;
+    width: 90%;
+    margin-left: 4.5%;
+    margin-top: 20px;
+    height: 10vh;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.boton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background: rgba(231, 47, 78, 1);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    border: none;
+    transition: .5s;
+}
+
+.boton:hover {
+    opacity: .4;
+}
+
+.selecciona {
+    width: 90%;
+    margin-left: 4.5%;
+    background: #dfdedee6;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    height: 35px;
+}

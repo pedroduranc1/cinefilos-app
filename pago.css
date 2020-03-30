@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828 !important;
+    height: 100vh;
+    width: 100%;
+}
+
+.cajapago {
+    position: absolute;
+    left: 32vw;
+    width: 55vw;
+    height: 80vh;
+    background: #fff;
+    border-radius: 0 20px 20px 0;
+}
+
+.imgs {
+    width: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.select {
+    width: 60%;
+    height: 6vh;
+    text-align: center;
+    border: 1px solid rgba(231, 47, 78, 1);
+    border-radius: 20px;
+    color: black;
+    padding-left: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.margintop {
+    margin-top: 2.5%;
+}
+
+.input {
+    background: rgba(223, 222, 222, 0.9);
+    border-radius: 20px;
+    border: none;
+    padding: 7px 25px;
+}
+
+.input2 {
+    background: rgba(223, 222, 222, 0.9);
+    border-radius: 20px;
+    border: none;
+    padding: 1vh 14vw;
+}
+
+.input3 {
+    background: rgba(223, 222, 222, 0.9);
+    border-radius: 20px;
+    border: none;
+    width: 30vw;
+    padding: 1vh 2vw;
+}
+
+.btnpagar {
+    background: rgba(231, 47, 78, 1);
+    color: white;
+    padding: 7px 30px;
+    border: none;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.btnpagar:hover {
+    background: rgba(231, 47, 78, .3);
+}
+
+.margintopbtn {
+    margin-top: 1%;
+}
+
+.btn-success {
+    background-color: rgba(231, 47, 78, 1) !important;
+    border: none !important;
+}
+
+.btn-success:hover {
+    background-color: transparent !important;
+    border: 1px solid rgba(231, 47, 78, 1) !important;
+    color: rgba(231, 47, 78, 1) !important;
+}

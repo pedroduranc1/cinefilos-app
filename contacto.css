@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/fotos/bgcontacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white {
+    color: white;
+    font-weight: normal;
+    margin-top: 20%;
+}
+
+.white1 {
+    color: white;
+}
+
+.white2 {
+    color: white;
+    font-weight: normal;
+}
+
+.fa-address-card {
+    color: white !important;
+    font-weight: normal !important;
+    font-size: 20px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+}

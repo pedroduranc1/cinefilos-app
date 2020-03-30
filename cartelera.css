@@ -1,0 +1,51 @@
+.imgcartelera {
+    width: 100%;
+    height: auto;
+}
+
+.contentcartelera {
+    width: 100%;
+    height: auto;
+    background: #282828;
+    margin-top: -12%;
+}
+
+.card {
+    width: 23% !important;
+    height: 60vh !important;
+    background: #282828 !important;
+    border: none !important;
+}
+
+.c {
+    color: white;
+}
+
+body {
+    background: #282828 !important;
+}
+
+.card-img-top {
+    width: 70% !important;
+    cursor: pointer;
+}
+
+.white {
+    color: white;
+}
+
+.boton {
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+}
+
+.flex {
+    display: flex;
+}
+
+.width {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,110 @@
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            img {
+                width: 50%;
+            }
+            
+            .nav-item:hover {
+                border-bottom: 2px solid #fff;
+                transition: .2s;
+                box-sizing: border-box;
+            }
+            
+            .seleccionado {
+                border-bottom: 2px solid #fff;
+            }
+            
+            .ticket {
+                width: 3%;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                cursor: pointer;
+                padding-bottom: 5px;
+            }
+            
+            .carrito {
+                position: absolute;
+                width: 30%;
+                height: 100vh;
+                z-index: 50;
+                background: #fff;
+                display: flex;
+                justify-content: end;
+                float: right;
+                top: 0;
+                right: 0%;
+                transition: .5s;
+                display: none;
+            }
+            
+            .btnx {
+                width: 5%;
+                cursor: pointer;
+                display: block;
+                margin-left: 10%;
+                margin-top: 10%;
+            }
+            
+            .btnx:hover {
+                background: transparent;
+            }
+            
+            .lbl {
+                text-align: center;
+                margin-top: 10%;
+            }
+            
+            .lbl1 {
+                margin-left: 5%;
+                width: 90%;
+                border-bottom: 1px solid rgba(231, 47, 78, 1);
+                padding-bottom: 5%;
+            }
+            
+            .lbl2 {
+                margin-left: 5%;
+                width: 90%;
+                border-bottom: 1px solid rgba(231, 47, 78, 1);
+                padding-bottom: 5%;
+                font-size: 20px !important;
+            }
+            
+            .lbl3 {
+                margin-left: 5%;
+                width: 90%;
+                color: rgba(231, 47, 78, 1);
+                border-bottom: 1px solid rgba(231, 47, 78, 1);
+                padding-bottom: 5%;
+                font-size: 30px !important;
+            }
+            
+            .margintop {
+                margin-top: 30%;
+            }
+            
+            .btnpagar {
+                background: rgba(231, 47, 78, 1);
+                color: white;
+                border-radius: 20px;
+                padding: 7px 30px;
+                border: none;
+                transition: .5s;
+            }
+            
+            .btnpagar:hover {
+                background: rgba(231, 47, 78, .3);
+            }
+            
+            .dropdown {
+                background: transparent !important;
+            }
+            
+            .btn-secondary {
+                background: transparent !important;
+            }

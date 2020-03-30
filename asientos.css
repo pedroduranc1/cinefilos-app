@@ -1,0 +1,158 @@
+.c {
+    color: #fff;
+}
+
+body {
+    background: #282828 !important;
+}
+
+.abox {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 72vh;
+    border-radius: 20px;
+    background: rgba(231, 47, 78, 1);
+    padding: 30px;
+}
+
+.tbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10vh;
+    border-radius: 20px 20px 0 0;
+    background: rgba(231, 47, 78, 1);
+}
+
+.asbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65vh;
+}
+
+.asiento {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.sele {
+    opacity: 3;
+    border: 2px solid #fff;
+}
+
+.boton {
+    background: #95DD91;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin: auto;
+    cursor: pointer;
+}
+
+tr {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.asientos {
+    display: inline-flex;
+    width: 100%;
+}
+
+.assbox {
+    display: inline-flex;
+    width: 100%;
+}
+
+.assbox h4 {
+    margin: auto;
+    color: white;
+}
+
+.asi {
+    color: white;
+    margin: auto 0;
+    height: 30px;
+}
+
+.boxbtn {
+    position: absolute;
+    top: 74%;
+    right: 2%;
+    width: 13%;
+    height: auto;
+    background: white;
+    border-radius: 0 20px 20px 0;
+    padding: 2%;
+}
+
+.btn-success {
+    color: #fff !important;
+    background-color: rgba(231, 47, 78, 1) !important;
+    border-color: rgba(231, 47, 78, 1) !important;
+}
+
+.btn-success:hover {
+    color: rgba(231, 47, 78, 1) !important;
+    background-color: #fff !important;
+    border-color: #fff!important;
+}
+
+.btnc {
+    background-color: rgba(231, 47, 78, 1);
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btnc:hover {
+    background-color: rgba(231, 47, 78, .7);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked+label {
+    background: #78A774;
+    border: 3px solid#fff;
+}
+
+.horarios {
+    position: absolute;
+    width: 13%;
+    height: 300px;
+    background: #fff;
+    top: 30%;
+    right: 2%;
+    border-radius: 0 20px 20px 0;
+}
+
+.funciones {
+    height: auto;
+    width: 100%;
+}
+
+.funciones button {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 10px 0;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.funciones button:hover {
+    background-color: rgba(231, 47, 78, 1);
+    color: #fff;
+    outline: none;
+}
