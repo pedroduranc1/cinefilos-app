@@ -10,7 +10,7 @@
     if(!$con){
         echo'No hay conexion con'.mysqli_error($con);
     }else{
-        echo'CONECTO';
+      //  echo'CONECTO';
     }
 
 ?>
